@@ -84,7 +84,7 @@ def setupRoomOne(all_sprites_list):
      
     # Loop through the list. Create the wall, add it to the list
     for item in walls:
-        wall=Wall(item[0],item[1],item[2],item[3],blue)
+        wall=Wall(item[0],item[1],item[2],item[3],yellow)
         wall_list.add(wall)
         all_sprites_list.add(wall)
          
