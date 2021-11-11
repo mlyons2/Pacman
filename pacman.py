@@ -10,6 +10,7 @@ green = (0,255,0)
 red = (255,0,0)
 purple = (255,0,255)
 yellow   = ( 255, 255,   0)
+score = (209,254,255)
 
 Trollicon=pygame.image.load('images/Trollman.png')
 pygame.display.set_icon(Trollicon)
@@ -521,7 +522,7 @@ def startGame():
       all_sprites_list.draw(screen)
       monsta_list.draw(screen)
 
-      text=font.render("Score: "+str(score)+"/"+str(bll), True, red)
+      text=font.render("Score: "+str(score)+"/"+str(bll), True, score)
       screen.blit(text, [10, 10])
 
       if score == bll:
