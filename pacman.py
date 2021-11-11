@@ -425,7 +425,7 @@ def startGame():
           if (row == 7 or row == 8) and (column == 8 or column == 9 or column == 10):
               continue
           else:
-            block = Block(yellow, 4, 4)
+            block = Block(green, 4, 4)
 
             # Set a random location for the block
             block.rect.x = (30*column+6)+26
