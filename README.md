@@ -5,7 +5,6 @@ This is a very minimal implementation of the Pacman game, having only one level 
 ![Pacman Game Window](https://raw.github.com/hbokmann/Pacman/master/images/pacman.jpg)
 
 # To download
-* Make sure you have python installed *
 * In the top right, click code, and download as zip
 * Extract the zip to a directory of your choosing
 * Run the game by going to the directory and typing "python pacman.py"
