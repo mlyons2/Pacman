@@ -12,7 +12,7 @@ purple = (255,0,255)
 yellow   = ( 255, 255,   0)
 score = (209,254,255)
 
-Trollicon=pygame.image.load('images/Trollman.png')
+Trollicon=pygame.image.load('images/player.png')
 pygame.display.set_icon(Trollicon)
 
 # This class represents the bar at the bottom that the player controls
