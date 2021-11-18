@@ -79,7 +79,7 @@ def setupRoomOne(all_sprites_list):
      
     # Loop through the list. Create the wall, add it to the list
     for item in walls:
-        wall=Wall(item[0],item[1],item[2],item[3],yellow)
+        wall=Wall(item[0],item[1],item[2],item[3],blue)
         wall_list.add(wall)
         all_sprites_list.add(wall)
          
@@ -420,7 +420,7 @@ def startGame():
           if (row == 7 or row == 8) and (column == 8 or column == 9 or column == 10):
               continue
           else:
-            block = Block(green, 4, 4)
+            block = Block(yellow, 4, 4)
 
             # Set a random location for the block
             block.rect.x = (30*column+6)+26
