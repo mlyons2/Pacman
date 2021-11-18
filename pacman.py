@@ -330,7 +330,8 @@ cl = len(Clyde_directions)-1
 
 # Call this function so the Pygame library can initialize itself
 pygame.init()
-  
+pygame.mixer.music.load('pacman.mp3')
+pygame.mixer.music.play(-1)  
 # Create an 606x606 sized screen
 screen = pygame.display.set_mode([606, 606])
 
